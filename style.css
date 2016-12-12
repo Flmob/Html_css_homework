@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    background-color: red;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 20%;
+}
+
+content {
+    display: table;
+    background-color: rgb(144, 180, 55);
+    height: 65%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 15%;
+}
+
+table.conttable {
+    margin: auto;
+    margin-top: 50px;
+    padding: 25px;
+    height: 100%;
+}
+
+table.conttable tr td {
+    border: 3px solid black;
+    margin: 5px;
+    height: 50%;
+    padding: 5px;
+}
+
+table.navv {
+    margin: auto;
+    padding-top: 25px;
+    height: 100%;
+}
+
+table.navv tr td {
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+table.navv tr td a {
+    text-decoration: none;
+    margin: 3px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    padding: 2px;
+}
+
+#image {
+    padding-top: 25px;
+}
+
+#mainpage {
+    width: 960px;
+    height: 100vh;
+    background-color: white;
+    margin: auto;
+}
+
+.contdiv {
+    display: table-cell;
+    background-color: rgb(144, 180, 55);
+    width: 480px;
+}
+
+#contd1 {
+    float: left;
+}
+
+#contd2 {
+    float: right;
+}
+
+.framedtext {
+    border: 3px solid grey;
+    margin: 5px;
+}
+
+#autor {
+    text-decoration: underline;
+}
